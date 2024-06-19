@@ -8,6 +8,8 @@ export const InputContainer = styled.div`
     display: flex;
     justify-content: end;
     align-items: end;
+    margin-bottom: 5px;
+
 
     input{
       width: 100%;

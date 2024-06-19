@@ -6,6 +6,10 @@ export const ButtonContainer = styled.button`
     font-size: 24px;
     font-weight: 600;
     flex: 1;
-
-   
+    border-radius: 5px;
+    transition: all 200ms ease;
+    &:hover{
+        cursor: pointer;
+        opacity: .7;
+    }
 `

@@ -1,9 +1,9 @@
 import { InputContainer } from "./style.js"
 
-export default function Input() {
+export default function Input({value}) {
   return (
     <InputContainer>
-      <input></input>
+      <input disabled value={value}></input>
     </InputContainer>
   )
 

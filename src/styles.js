@@ -11,7 +11,7 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-    width: 35%;
+    width: 700px;
     padding: .7rem;  
     border: 2px solid #4F5560;
     border-radius: 5px;
@@ -19,27 +19,24 @@ export const Content = styled.div`
     background-color: #4F5560AA;
     
 `
-export const InputSpace = styled.div`
-    display: flex;
-    padding: .5rem 0;
-    gap: .5rem;
-`
 
 export const ButtonSpace = styled.div`
-    width: 70%;  
+    width: 100%;
     display: flex;
     gap: .5rem;
-    padding: .5rem 0;
+    padding: .2rem 0;
     flex-wrap: wrap;
 `
-export const OperationContainer = styled.div`
-    width: 30%;  
+
+
+export const ButtonSpaceColor = styled.div`
+    width: 100%;
     display: flex;
-    padding: .5rem 0;
     gap: .5rem;
-    flex-direction: column;
+    padding: .2rem 0;
+    flex-wrap: wrap;
 
         button:last-child{
-            background-color:  #4d4e86;
+            background-color: #4d4e86;
         }
 `
